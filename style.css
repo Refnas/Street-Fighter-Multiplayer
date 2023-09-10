@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    background-image: url(images/BG.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deatail-control{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.player-1-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-2-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#player2Img{
+    position: relative;
+    left: -50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 120px;
+}
+
+h1{
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+h3{
+    font: italic small-caps bolder 16px/2 cursiv
+}
+
+.result-reset-sim{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.power{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+#reset{
+    margin-right: 15px;
+}
+
+progress{
+    height: 30px;
+}
+
+audio{
+    display: none;
+}
+
+#result{
+    font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; 
+    font-size: 40px;
+    color: black;
+}
